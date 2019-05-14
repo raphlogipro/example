@@ -42,7 +42,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Logipro\\Bundle\\exampleBundle\\": ""
+            "Logipro\\Bundle\\ExampleBundle\\": ""
         }
     }
 }
