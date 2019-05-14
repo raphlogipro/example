@@ -1,5 +1,5 @@
 {
-    "name": "logipro/exampleBundle",
+    "name": "logipro/examplebundle",
     "description": "Bundle example for Symfony 4",
     "license": "MIT",
     "type": "symfony-bundle",
