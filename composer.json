@@ -1,0 +1,48 @@
+{
+    "name": "logipro/exampleBundle",
+    "description": "Bundle example for Symfony 4",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Jeremy Gaultier",
+            "email": "contact@gaultierweb.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "doctrine/common": "^2.8",
+        "doctrine/doctrine-bundle": "^1.8",
+        "doctrine/orm": "^2.6",
+        "doctrine/persistence": "^1.0",
+        "symfony/asset": "^4.1",
+        "symfony/cache": "^4.1",
+        "symfony/config": "^4.1",
+        "symfony/dependency-injection": "^4.1",
+        "symfony/doctrine-bridge": "^4.1",
+        "symfony/expression-language": "^4.1",
+        "symfony/framework-bundle": "^4.1",
+        "symfony/http-foundation": "^4.1",
+        "symfony/http-kernel": "^4.1",
+        "symfony/polyfill-mbstring": "^1.7",
+        "symfony/property-access": "^4.1",
+        "symfony/security-bundle": "^4.1",
+        "symfony/twig-bridge": "^4.1",
+        "symfony/twig-bundle": "^4.1",
+        "twig/extensions": "^1.5",
+        "twig/twig": "^2.4"
+    },
+    "require-dev": {
+        "symfony/browser-kit": "^4.1",
+        "symfony/css-selector": "^4.1",
+        "symfony/dom-crawler": "^4.1",
+        "symfony/phpunit-bridge": "^4.1",
+        "symfony/var-dumper": "^4.1",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logipro\\Bundle\\exampleBundle\\": ""
+        }
+    }
+}

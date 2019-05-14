@@ -1,0 +1,3 @@
+logipro_example_example_route:
+  path:     /example
+  controller: Logipro\Bundle\ExampleBundle\Controller\ExampleController::view

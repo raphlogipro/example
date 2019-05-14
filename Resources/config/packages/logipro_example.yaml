@@ -1,0 +1,2 @@
+logipro_example:
+  username_provider: Logipro\Bundle\ExampleBundle\Entity\User
