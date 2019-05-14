@@ -17,6 +17,9 @@ class LogiproExampleExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
+        $definition = $container->getDefinition('example.services.foo');
+        $definition->replaceArgument('toto', $config['username_provider']);
+
         /**
          * @TODO for real bundle, create an user service for use username provider
          * $definition = $container->getDefinition('logipro_example.user.service');
