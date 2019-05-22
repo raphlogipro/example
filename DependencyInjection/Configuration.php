@@ -15,7 +15,7 @@ class Configuration implements ConfigurationInterface
         $treeBuilder->getRootNode()
             ->children()
                 ->node('username_provider', 'scalar')
-                ->addDefaultsIfNotSet()
+                ->defaultValue('scalar')
                 ->end()
             ->end()
         ;
